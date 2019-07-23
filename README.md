@@ -16,7 +16,7 @@ Accept Header toolbox 🧰 to **Laravel**. Validation and interpretation based o
 * Conversion: Converts the list of media types to a Laravel Collection (automatically sorted by priority according to specification);
 
 ## Installation
-`composer require ejetar/accept-header-interpreter`
+`composer require ejetar/accept-header-interpreter ^1.0.0-alpha`
 
 ## Examples
 ### First Example: Entering *valid* content
