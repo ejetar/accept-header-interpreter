@@ -1,0 +1,35 @@
+{
+    "name": "ejetar/accept-header-interpreter",
+    "description": "Accept Header toolbox \uD83E\uDDF0 to Laravel. Validation and interpretation based on RFC 7231, section 5.3.1 and 5.3.2. Conversion of the list of media types to ordered Laravel Collections (by priority, according to RFC).",
+    "homepage": "https://ejetar.com/projects/accept-header-interpreter",
+    "version": "1.0.0-alpha",
+    "readme": "README.md",
+    "type": "library",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Almeida Girardi",
+            "email": "guilhermeagirardi@gmail.com",
+            "homepage": "https://guilhermegirardi.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "php",
+        "accept header",
+        "laravel"
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=5.0.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0@dev"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Ejetar\\AcceptHeaderInterpreter\\": "src/"
+        }
+    }
+}
