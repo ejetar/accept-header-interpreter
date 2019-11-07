@@ -1,12 +1,17 @@
 # Accept Header Interpreter
 
 ## Table of Contents
-* About the library
-* Features
-* Installation
-* Examples
-* Contributing
-* License
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Examples](#examples)
+  * [First Example: Entering *valid* content](#first-example--entering--valid--content)
+  * [Second Example: Entering *invalid* content](#second-example--entering--invalid--content)
+  * [Third Example: Priority](#third-example--priority)
+  * [Fourth Example: Displaying the original content of the Accept Header](#fourth-example--displaying-the-original-content-of-the-accept-header)
+- [Changelog](#changelog)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## About
 Accept Header toolbox 🧰 to **Laravel**. Validation and interpretation based on **RFC 7231, section 5.3.1 and 5.3.2**. Conversion of the list of media types to ordered Laravel Collections (by priority, according to RFC).
@@ -179,6 +184,9 @@ try {
 application/json
 */
 ```
+
+## Changelog
+Nothing for now...
 
 ## Contributing
 Contribute to this wonderful project, it will be a pleasure to have you with us. Let's help the free software community. You are invited to incorporate new features, make corrections, report bugs, and any other form of support.
