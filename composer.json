@@ -5,7 +5,7 @@
     "version": "1.0.0-alpha",
     "readme": "README.md",
     "type": "library",
-    "licence": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Guilherme Almeida Girardi",
@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": ">=5.0.0"
+        "illuminate/support": ">=5"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.0@dev"
