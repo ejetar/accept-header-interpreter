@@ -2,7 +2,7 @@
     "name": "ejetar/accept-header-interpreter",
     "description": "Accept Header toolbox \uD83E\uDDF0 to Laravel. Validation and interpretation based on RFC 7231, section 5.3.1 and 5.3.2. Conversion of the list of media types to ordered Laravel Collections (by priority, according to RFC).",
     "homepage": "https://ejetar.com/projects/accept-header-interpreter",
-    "version": "1.0.0-alpha",
+    "version": "1.1.0-alpha",
     "readme": "README.md",
     "type": "library",
     "license": "MIT",
@@ -20,11 +20,12 @@
         "laravel"
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": ">=5"
+        "php": ">=7.2.5",
+        "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|~6.0|~7.0"
     },
     "require-dev": {
-        "symfony/var-dumper": "^5.0@dev"
+        "symfony/var-dumper": "^5.0@dev",
+        "phpunit/phpunit": "^9.0"
     },
     "minimum-stability": "stable",
     "autoload": {
